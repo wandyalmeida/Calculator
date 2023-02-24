@@ -1,0 +1,11 @@
+body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 30px;
+    min-width: 356px;
+    box-shadow: 0px 0px 8px 8px rgba(10, 0, 0, 0.6);
+}
