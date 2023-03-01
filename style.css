@@ -5,6 +5,10 @@
     min-width: 356px;
     box-shadow: 0px 0px 8px 8px rgba(10, 0, 0, 0.6);
 }
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
 #Result{
     margin-top: 5%;
     font-size: 50px;
