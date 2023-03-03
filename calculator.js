@@ -2,7 +2,7 @@
 function Sum(){
     var num = parseFloat(document.querySelector("#FirstNumber").value);
     var num2 = parseFloat(document.querySelector("#SecondNumber").value);
-    document.getElementById("Result").innerHTML= num + num2;
+    document.getElementById('Result').innerHTML = num + num2;
 
 
 }
@@ -23,7 +23,12 @@ function Mult(){
 function Divide(){
     var num = parseFloat(document.querySelector("#FirstNumber").value);
     var num2 = parseFloat(document.querySelector("#SecondNumber").value);
-    document.getElementById("Result").innerHTML= num / num2;
+    if(num2 == 0){
+        alert("Division by zero");
+    }else{
+        document.getElementById("Result").innerHTML= num / num2;
 
+    }
+    
 
 }
